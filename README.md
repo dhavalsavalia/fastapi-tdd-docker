@@ -57,3 +57,9 @@ docker compose build --no-cache
 ```bash
 docker compose up -d --build
 ```
+
+## Running Tests
+To run the tests, execute the following command:
+```bash
+docker-compose exec web python -m pytest
+```
