@@ -63,3 +63,9 @@ To run the tests, execute the following command:
 ```bash
 docker-compose exec web python -m pytest
 ```
+
+## Running Migrations
+To run migrations, execute the following command:
+```bash
+docker-compose exec web aerich upgrade
+```
